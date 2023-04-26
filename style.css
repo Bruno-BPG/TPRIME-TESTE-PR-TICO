@@ -1,0 +1,128 @@
+.container2 {
+    display: flex;
+    justify-content: center;
+    margin-top:10px ;
+    color:white ;
+}
+
+.box{
+    background-color:blueviolet ;
+    height:50px ;
+    width: 750px ;
+    display:flex ;
+    justify-content:space-around ;
+    align-items:center ;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    color:white ;
+}
+
+#box2{
+    color:black ;
+    height:50px ;
+    width: 746px ;
+    display:flex ;
+    justify-content:space-around ;
+    align-items:center ;
+    flex-wrap: wrap;
+
+}
+
+.span1{
+    display:flex ;
+    justify-content:center ;
+    align-items:center ;
+    width:150px ;
+    height:50px ;
+}
+
+.card{
+    overflow-y:scroll ;
+    height:275px ;
+    background-color:aliceblue ;
+}
+
+.card::-webkit-scrollbar-track{
+	background-color: blueviolet;
+}
+
+.card::-webkit-scrollbar{
+	width: 5px;
+    height:100%;
+}
+
+.card::-webkit-scrollbar-thumb{
+	background-color: #bfddf3
+}
+
+.conteinerForm{
+    display:flex ;
+    justify-content:center ;
+    margin-top:60px ;
+}
+
+input{
+    width:300px ;
+    height:23px ;
+}
+
+.formAddContact{
+    background-color:aliceblue ;
+    border:solid black 1px ;
+    height:180px ;
+    width:375px ;
+    padding-top:30px ;
+}
+
+.divAjusting1{
+    display: flex;
+    justify-content:center ;
+}
+
+.conteinerBtnSalvar{
+    display:flex ;
+    justify-content: center;
+    margin-top:8px ;
+}
+
+#btnSalvar{
+    padding:8px ;
+    cursor: pointer;
+    width:75px ;
+    height:30px ;
+    background-color: blueviolet;
+    color:white ;
+    border:none ;
+}
+
+#divConteinerModal{
+    position: absolute;
+}
+
+.esconder {
+    display: none;
+}
+    
+.exibir {
+    display: flex;
+    background: blueviolet;
+    color: white;
+    opacity: 85%;
+    width: 500px;
+    height: 100px;
+    top: 250px;
+    right: 500px;
+    position: absolute;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.msmDoMoldal{
+    font-size: 20px;
+    color: black;
+}
